@@ -1,8 +1,8 @@
 class AppCleanerCli < Formula
   desc "Terminal cleaning suite for caches, logs, and leftover app files"
   homepage "https://app-cleaner.vozniak.dev/"
-  url "https://github.com/GuilhermeVozniak/app-cleaner/releases/download/v1.6.0/app-cleaner-cli_1.6.0_darwin_universal.tar.gz"
-  sha256 "83573c1a086917858ef00016c8290101b1208c0fad688cbd1dc000aad693d67f"
+  url "https://github.com/GuilhermeVozniak/app-cleaner/releases/download/v1.7.0/app-cleaner-cli_1.7.0_darwin_universal.tar.gz"
+  sha256 "402fa100e48e74857bd8d651b1a1e31ef292d1b9619d2899e02f8b373a620735"
   license "MIT"
 
   livecheck do
