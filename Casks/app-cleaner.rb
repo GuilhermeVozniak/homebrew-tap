@@ -1,6 +1,6 @@
 cask "app-cleaner" do
   version "1.7.0"
-  sha256 "8a6c4be8eac358787a344932f99b54c699a4af3a04e95fe7d2c2cd3f2a44a398"
+  sha256 "069e124b4ec663ce65c0971fef805629150c5f871d8627c735fa75c5ff3e7d85"
 
   url "https://github.com/GuilhermeVozniak/app-cleaner/releases/download/v#{version}/app-cleaner_#{version}_darwin_universal.dmg"
   name "App Cleaner"
