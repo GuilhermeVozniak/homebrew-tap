@@ -25,6 +25,37 @@ brew install GuilhermeVozniak/tap/app-cleaner-cli
 by the [release workflow](https://github.com/GuilhermeVozniak/app-cleaner/blob/main/.github/workflows/release.yml)
 in the app repository whenever a new version is published.
 
+## Option Tab
+
+Keyboard window switcher and native Dock enhancements for macOS 14 or later.
+The signed and notarized download supports both Apple Silicon and Intel.
+
+```sh
+brew install --cask GuilhermeVozniak/tap/option-tab
+```
+
+Option Tab also updates itself from inside the app. To update with Homebrew,
+quit Option Tab and run:
+
+```sh
+brew update
+brew upgrade --cask --greedy GuilhermeVozniak/tap/option-tab
+```
+
+Quit the app before removing it:
+
+```sh
+brew uninstall --cask GuilhermeVozniak/tap/option-tab
+```
+
+Uninstall preserves your settings. If a manually installed copy already occupies
+the destination, resolve Homebrew's reported conflict before installing.
+See the [Option Tab documentation](https://github.com/GuilhermeVozniak/option-tab/blob/main/docs/homebrew.md)
+for details.
+
+`Casks/option-tab.rb` is updated after each release is published and its download
+and checksum have been verified.
+
 ## Tiles Spliter
 
 ```sh
